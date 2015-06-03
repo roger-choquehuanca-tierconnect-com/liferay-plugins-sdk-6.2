@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* 
+* Memo Login CSS
+* By Vito Paredes
+* 2015
+ * --------------------------------------- */
+
+/* Login Join Beta */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	}
+#header, #footer {
+  position: initial;
+
+}
+section{
+	  margin-top: 100px;
+	font-size:12px
+	}
+.login{
+	width:auto;
+	}
+.login-container{
+	margin:auto;
+	width:430px;
+	}
+.login-help{
+	color:#C4C4C3;
+	float:right;
+	}
+.login-container h1,.login-container p{
+	text-align:center;
+	}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	}
+
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ABABAB;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+
+/*button*/
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn.focus, .btn:focus, .btn:hover {
+  color: #333;
+  text-decoration: none;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-group-lg>.btn, .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.btn-primary {
+  color: #CBF1FC;
+  background-color: #063C4F;
+  border-color: #063C4F;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 22px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  width:auto;
+  text-transform:none;
+}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button, select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+  color: #E3F7FD;
+  background-color: #042A37;
+  border-color: #042A37;
+}
+.btn.focus, .btn:focus, .btn:hover {
+  color: #E3F7FD;
+  text-decoration: none;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-group-lg>.btn, .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+
+/*Form*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+ margin: 50px auto;
+    overflow: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheetform {
+  display: block;
+  margin-top: 0em;
+}
+.form-group{
+	  overflow: hidden;
+margin-bottom:10px;	
+	}
+.text-center{
+	text-align:center;
+	
+	}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.checkbox, .radio {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-signin a{
+  color:#B5B5B5;
+	}
+.form-signin a:hover{
+  color:#B5B5B5;
+  text-decoration:underline;  
+	}

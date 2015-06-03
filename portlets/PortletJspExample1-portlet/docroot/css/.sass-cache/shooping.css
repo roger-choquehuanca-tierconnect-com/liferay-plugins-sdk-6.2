@@ -1,0 +1,222 @@
+/***
+    set font for all page
+**/
+.container {
+  font-family: JosefinSans, sans-serif; }
+
+/***
+    footer section (bootstrap)
+**/
+.footer {
+  width: 100%;
+  background-color: #525357;
+  padding: 0 15px; }
+
+/***
+    Shopping Cart
+**/
+.body {
+  padding: 20px 0; }
+
+.body h1 {
+  font-family: JosefinSans, sans-serif; }
+
+.body .steps {
+  border: 1px solid #000;
+  margin: 30px 0 25px 0; }
+
+.body .steps div {
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  text-transform: uppercase; }
+
+.body .steps .selected a, .body .steps .selected a:hover {
+  color: #fff; }
+
+.body .steps div a, .body .steps div a:hover {
+  color: #000;
+  text-decoration: none; }
+
+.body .steps .selected {
+  background-color: #000;
+  color: #fff; }
+
+.body .products .title {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.body .products .row {
+  border-bottom: 1px solid #F2F2F2;
+  padding: 15px 0; }
+
+.body .products .head {
+  padding: 10px 0; }
+
+.body .products .body {
+  padding: 10px 0; }
+
+.body .products .row img {
+  width: 100%;
+  display: inline-block; }
+
+.body .products .row input {
+  border: 1px solid #777;
+  padding: 10px;
+  width: 70px;
+  font-size: 20px;
+  text-align: center; }
+
+.body .products .row .money {
+  font-size: 20px;
+  text-align: center; }
+
+.body .products .row .money.total {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold; }
+
+.body .row .btn {
+  text-transform: uppercase;
+  background-color: #CCCCCC;
+  width: 90%;
+  color: #fff;
+  padding: 15px; }
+
+.corner-circle {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px; }
+
+/***
+    This need for some styles changed to bootstrap
+**/
+.billing .row div input {
+  width: 100%;
+  padding: 15px;
+  background-color: #EEEEEE;
+  border: none;
+  margin: 10px 0;
+  font-size: 20px; }
+
+.billing .row.buttons {
+  margin-top: 50px;
+  margin-bottom: 80px; }
+
+.body .row .btn-light {
+  background-color: #fff;
+  border: 1px solid #999;
+  color: #000; }
+
+.body .row .btn-black {
+  background-color: #5D5D5D; }
+
+/***
+    payments
+**/
+.body .payment select {
+  background-color: #EEEEEE;
+  border: none;
+  font-size: 20px;
+  padding: 15px; }
+
+.body .payment .row input.mini, .body .payment .row input[type=checkbox] {
+  width: 80px; }
+
+.body .payment .row {
+  font-size: 20px; }
+
+/**
+    YourShippingBillingNewAddress.html
+**/
+.body .details {
+  margin: 20px 0; }
+
+.body .details, .body .details p {
+  font-size: 20px; }
+
+.body .details .links, .body .details h4 {
+  display: inline-block;
+  width: auto; }
+
+.body .details h4 {
+  padding-right: 80px;
+  font-size: 25px;
+  font-weight: bold; }
+
+.body .buttons {
+  margin: 10px 0; }
+
+.body .row a {
+  font-size: 20px; }
+
+/**
+    YourShippingBillingNewAddress.html
+**/
+.list .title div {
+  font-size: 24px;
+  margin-bottom: 15px; }
+
+.list div {
+  font-size: 22px; }
+
+.list .card div {
+  margin: 10px 0; }
+
+.list .card span {
+  padding: 0 15px; }
+
+/**
+    YourShippingBillingNewAddress.html
+**/
+.body .confirm {
+  margin: 25px 0 35px; }
+
+.body .confirm div {
+  position: relative; }
+
+.body .confirm div h3 {
+  font-size: 25px;
+  margin: 8px 0; }
+
+.body .confirm div a {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 50px; }
+
+.body .confirm div p {
+  font-size: 20px; }
+
+/**
+    ThankYouOrder.html
+**/
+.body .thank-you .order {
+  padding-bottom: 50px; }
+
+.body .thank-you .message {
+  margin-top: 150px;
+  text-align: center; }
+
+.body .thank-you .message a.btn {
+  margin: 50px;
+  width: 60%; }
+
+.body .order .list img {
+  width: 100px;
+  display: inline-block; }
+
+.body .order h2 {
+  border: none;
+  font-size: 35px;
+  text-transform: none; }
+
+.body .order .list {
+  margin: 15px 0; }
+
+/***
+    This need for some styles changed to bootstrap
+**/
+body #header {
+  position: relative; }
+

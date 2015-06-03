@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* 
+* Memo Login CSS
+* By Vito Paredes
+* 2015
+ * --------------------------------------- */
+/* Login Join Beta */
+body {
+  font-family: Arial, Helvetica, sans-serif !important; }
+
+.aui #footer, .aui #footer .breadcrumb {
+  background: #666666;
+  color: #B7B7B7;
+  position: relative;
+  z-index: 9; }
+
+.aui #banner {
+  background: #666;
+  height: 46px;
+  z-index: 9;
+  position: relative; }
+
+.login {
+  width: auto !important; }
+
+.login-container {
+  margin: 100px auto auto auto !important;
+  width: 430px !important;
+  position: relative; }
+
+.login-help {
+  color: #c4c4c3 !important;
+  float: right !important; }
+
+.login-container h1, .login-container p {
+  text-align: center;
+  /*color:#fff;*/ }
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  margin-bottom: 10px !important; }
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.form-signin .form-control {
+  position: relative !important;
+  height: auto !important;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  padding: 10px !important;
+  font-size: 16px !important; }
+
+.form-control {
+  display: block !important;
+  width: 100% !important;
+  height: 34px !important;
+  padding: 6px 12px !important;
+  font-size: 14px !important;
+  line-height: 1.42857 !important;
+  color: #555555 !important;
+  background-color: white !important;
+  background-image: none !important;
+  border: 1px solid #ababab !important;
+  border-radius: 0 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s !important;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important; }
+
+/*button*/
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+  color: white !important;
+  background-color: #286090 !important;
+  border-color: #204d74 !important; }
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: #333333 !important;
+  text-decoration: none !important; }
+
+.btn-block {
+  display: block !important;
+  width: 100% !important; }
+
+.btn-group-lg > .btn, .btn-lg {
+  padding: 10px 16px !important;
+  font-size: 18px !important;
+  line-height: 1.33333 !important;
+  border-radius: 6px !important; }
+
+.btn-primary {
+  color: #cbf1fc !important;
+  background-color: #063c4f !important;
+  border-color: #063c4f !important; }
+
+.aui .control-group.error input, .aui .control-group.error select, .aui .control-group.error textarea {
+  border-color: #b50303;
+  border: 1px solid #b50303 !important; }
+
+.btn {
+  display: inline-block !important;
+  padding: 6px 22px !important;
+  margin-bottom: 0 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  -ms-touch-action: manipulation !important;
+  touch-action: manipulation !important;
+  cursor: pointer !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  background-image: none !important;
+  border: 1px solid transparent !important;
+  border-radius: 2px !important;
+  width: auto !important;
+  text-transform: none !important;
+  box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 rgba(0, 0, 0, 0.05); }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button, select {
+  text-transform: none; }
+
+button {
+  overflow: visible; }
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit; }
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+  color: #e3f7fd !important;
+  background-color: #042a37 !important;
+  border-color: #042a37 !important; }
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: #E3F7FD;
+  text-decoration: none; }
+
+.btn-block {
+  display: block;
+  width: 100%; }
+
+.btn-group-lg > .btn, .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px; }
+
+.aui .dockbar-vertical .icon-toggle-dockbar {
+  z-index: 9;
+  position: relative; }
+
+/*Form*/
+.form-signin {
+  max-width: 330px !important;
+  padding: 15px !important;
+  margin: 20px auto !important;
+  overflow: hidden !important; }
+
+/*
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+user agent stylesheetform {
+  display: block;
+  margin-top: 0em; }
+
+.form-group {
+  overflow: hidden !important;
+  margin-bottom: 10px !important; }
+
+.text-center {
+  text-align: center; }
+
+.form-signin .checkbox {
+  font-weight: normal; }
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+  margin-bottom: 10px !important; }
+
+.checkbox, .radio {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.form-signin a {
+  color: #b5b5b5 !important; }
+
+.form-signin a:hover {
+  color: #b5b5b5 !important;
+  text-decoration: underline !important; }
+
+iframe {
+  position: fixed;
+  top: 0; }
+

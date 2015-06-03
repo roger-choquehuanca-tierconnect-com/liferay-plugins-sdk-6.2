@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="LogIn-hook"
+		revision="working@LENOVO-PC"
+		conf="default"
+		confs="default, internal"
+		date="20150603103013"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>
